@@ -1,0 +1,32 @@
+<!doctype html>
+
+<head>
+    <base href="/">
+    <title>{% block title %}{% endblock %}</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% assets "css_all" %}
+    <link rel=stylesheet type=text/css href="{{ ASSET_URL }}">
+    {% endassets %}
+
+    {% assets "js_head" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+    <script src="//localhost:35729/livereload.js"></script>
+
+</head>
+
+<body>
+    {% assets "js_all" %}
+    <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+
+    {% block body %} {% endblock %}
+</body>
+
+</html>

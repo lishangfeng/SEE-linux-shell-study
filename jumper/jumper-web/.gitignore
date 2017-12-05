@@ -1,0 +1,16 @@
+node_modules
+bower_components
+*.pyc
+*.swp
+.venv/
+.idea/*
+.DS_Store
+
+data/
+instance/
+migrations/
+
+test.py
+*.log
+*.pid
+*.lock

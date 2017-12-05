@@ -1,0 +1,13 @@
+{
+    "app":[
+        {  "app_name": "jumper-web",
+            "version": "1.0.3"
+        },
+        {  "app_name": "jumper-cache-web",
+            "version": "1.0.1"
+        },
+        {  "app_name": "jumper-job",
+            "version": "1.0.1"
+        }
+    ]
+}

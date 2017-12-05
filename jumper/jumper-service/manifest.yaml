@@ -1,0 +1,16 @@
+version: v1
+common:
+    tools:
+build:
+    tools:
+    run:
+    target:
+        distDir: .
+        files:
+            - ./*
+deploy:
+    targetDir: /opt/meituan/apps/jumper-service
+    run:
+        workDir: /opt/meituan/apps/jumper-service
+        cmd:
+            - sh ./scripts/deploy.sh

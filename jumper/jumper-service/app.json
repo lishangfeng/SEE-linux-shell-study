@@ -1,0 +1,7 @@
+{
+    "app":[
+        {  "app_name": "jumper-service",
+            "version": "1.0.1"
+        }
+    ]
+}

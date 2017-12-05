@@ -1,0 +1,16 @@
+version: v1
+common:
+    tools:
+build:
+    tools:
+    run:
+    target:
+        distDir: .
+        files:
+            - ./*
+deploy:
+    targetDir: /opt/meituan/apps/jumper-web
+    run:
+        workDir: /opt/meituan/apps/jumper-web
+        cmd:
+            - sh ./scripts/deploy/gunicorn.sh
