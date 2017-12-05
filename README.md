@@ -1,1 +1,0 @@
-# SRE-linux-shell-study
